@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3d9a1;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #111;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Grid Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Colors for each card */
+.graphic-design {
+    background-color: #8b5cf6; /* Purple */
+}
+
+.illustrations {
+    background-color: #f43f5e; /* Coral */
+}
+
+.photography {
+    background-color: #14b8a6; /* Teal */
+}
+
+/* Titles on the cards */
+.card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+/* Content inside the cards */
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 5;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    max-width: 900px;
+    gap: 40px;
+}
+
+.profile-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-color: #14b8a6;
+    padding: 10px;
+}
+
+.profile-text {
+    flex: 2;
+    text-align: left;
+}
+
+.profile-text h2 {
+    font-size: 1.8rem;
+    color: #111;
+}
+
+.profile-text p {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+.cta-button {
+    background-color: #f43f5e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #d73250;
+}
+/* Tarjeta Redondeada */
+.profile-card {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+/* Perfil dentro de la tarjeta */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Imagen circular */
+.profile-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-color: #14b8a6;
+    padding: 10px;
+}
+
+/* Texto del perfil */
+.profile-text {
+    flex: 2;
+    text-align: left;
+}
+
+.profile-text h2 {
+    font-size: 1.8rem;
+    color: #111;
+}
+
+.profile-text p {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Botón de consulta */
+.cta-button {
+    background-color: #f43f5e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #d73250;
+}
