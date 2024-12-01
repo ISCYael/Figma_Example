@@ -188,3 +188,43 @@ p {
 .cta-button:hover {
     background-color: #d73250;
 }
+/* Sección de llamada a la acción */
+.cta-section {
+    background-color: #111; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.cta-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #d1d1d1; /* Color gris claro */
+}
+
+.cta-button {
+    background-color: #f43f5e; /* Botón coral */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d73250; /* Color coral oscuro */
+}
